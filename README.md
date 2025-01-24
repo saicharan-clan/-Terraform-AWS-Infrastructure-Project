@@ -33,3 +33,5 @@ This repository contains Terraform configuration files for setting up and managi
 ├── rttbass.tf           # Subnet associations with route tables
 ├── terraform.tfstate    # Terraform state file (not committed to Git)
 └── terraform.tfstate.backup
+
+############ PLEASE CREATE terraform.tfvars file by your own ############### 
