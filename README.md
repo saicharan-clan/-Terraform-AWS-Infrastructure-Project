@@ -36,4 +36,7 @@ This repository contains Terraform configuration files for setting up and managi
 
 please create terraform.tfvars file by your own and place terraform.tfvars, terraformstatefile, and terraformstatebackup file, variables file and module configuration file should be placed in root directory
 
-And remaining terraform configuration files should be placed in module directory 
+And remaining terraform configuration files should be placed in module directory
+
+You do not need to declare the provider "aws" block in the module.
+The module will automatically use the provider configuration from the root, where you declared it.
