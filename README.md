@@ -34,4 +34,6 @@ This repository contains Terraform configuration files for setting up and managi
 ├── terraform.tfstate    # Terraform state file (not committed to Git)
 └── terraform.tfstate.backup
 
-############ PLEASE CREATE terraform.tfvars file by your own ############### 
+please create terraform.tfvars file by your own and place terraform.tfvars, terraformstatefile, and terraformstatebackup file, variables file and module configuration file should be placed in root directory
+
+And remaining terraform configuration files shoild be placed in module directory 
